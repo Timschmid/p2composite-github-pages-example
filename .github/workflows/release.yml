@@ -30,6 +30,6 @@ jobs:
       run: >
         mvn deploy
         -Prelease-composite
-        -Dgithub-update-repo=https://x-access-token:${{ secrets.GITHUB_TOKEN}}@github.com/Timschmid/p2composite-github-pages-example-updates
+        -Dgithub-update-repo=https://x-access-token:${{ secrets.GEHEIM}}@github.com/Timschmid/p2composite-github-pages-example-updates
       working-directory: p2composite.example.parent
 
