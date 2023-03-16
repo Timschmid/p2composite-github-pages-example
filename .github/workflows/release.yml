@@ -1,6 +1,7 @@
 name: Release with Maven
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - release
